@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hepta Website by Colorlib</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="header-section">
+        <nav>
+            <div class="logo">Hepta</div>
+
+            <span class="toggle-btn">&#9776;</span>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" id="active">Home</a></li>
+                    <li><a href="hotel.html">Hotels</a></li>
+                    <li><a href="Abous-us.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-area">
+            <h2>Travel & Tours</h2>
+            <p>A free template by Colorlib. Download and share!</p>
+            <button>Visit Colorlib</button>
+        </div>
+        <div class="scroll-down">
+            <span>Scroll Down</span>
+            <i class="fa-solid fa-chevron-down arrow"></i>
+        </div>
+    </header>
+    <main>
+
+        <section class="tour-section">
+            <div class="image">
+                <img src="images/mountain-7986371_1280.jpg" alt="">
+            </div>
+
+            <div class="tex">
+                <h2 class="heading">Welcome To Our Website</h2>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                    there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                    Semantics, a large language ocean.
+                </p>
+                <p>
+                    A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                </p>
+
+                <!-- Video Trigger Button -->
+                <a class="video-icon" href="#" id="open-video">
+                    <img src="images/play-icon.svg"> Watch the Video
+                </a>
+
+                <!-- Video Popup Modal -->
+                <div class="video-popup" id="video-popup">
+                    <div class="video-content">
+                        <span class="close-btn" id="close-video">&times;</span>
+                        <iframe id="youtube-video" width="660" height="615" src="" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experince-section">
+            <h2>Experience Once In Your Life Time</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean.</p>
+            <div class="cart-section">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="img">
+                        <img src="images/001-breakfast.svg" alt="001-breakfast">
+                    </div>
+                    <h2>Good Foods</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="img">
+                        <img src="images/travel.svg" alt="travel">
+                    </div>
+                    <h2>Travel Anywhere</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="img">
+                        <img src="images/003-airplane.svg" alt="Airplane">
+                    </div>
+                    <h2>Airplane</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="card">
+                    <div class="img">
+                        <img src="images/004-beach.svg" alt="004-beach">
+                    </div>
+                    <h2>Beach Resort</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="card">
+                    <div class="img">
+                        <img src="images/005-mountains.svg" alt="Fresh Juice">
+                    </div>
+                    <h2>Mountain Climbing</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="card">
+                    <div class="img">
+                        <img src="images/006-hot-air-balloon.svg" alt="006-hot-air-balloon">
+                    </div>
+                    <h2>Hot Air Balloon</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mangement-section">
+            <div class="header">
+                <h1>International Tour Management.</h1>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                    there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                    Semantics,
+                    a large language ocean.
+                </p>
+            </div>
+
+            <!-- Slider Wrapper -->
+            <div class="slider-wrapper">
+                <!-- Left Arrow -->
+                <button class="slider-btn left" onclick="slideLeft()">&#10094;</button>
+
+                <!-- Slider Container -->
+                <div class="slider" id="slider">
+                    <img src="images/mountain-7986371_1280.jpg" alt="">
+                    <img src="images/traveler-4155514_1280.jpg" alt="">
+                    <img src="images/traveler-4155514_1280.jpg" alt="">
+                    <img src="images/traveler-4155514_1280.jpg" alt="">
+                    <img src="images/traveler-4155514_1280.jpg" alt="">
+                    <img src="images/traveler-4155514_1280.jpg" alt="">
+                    <img src="images/mountain-7986371_1280.jpg" alt="">
+                    <img src="images/mountain-7986371_1280.jpg" alt="">
+
+                    <img src="images/mountain-7986371_1280.jpg" alt="">
+
+                </div>
+                <!-- Right Arrow -->
+                <button class="slider-btn right" onclick="slideRight()">&#10095;</button>
+            </div>
+        </section>
+
+
+
+        <section class="blog-section">
+            <div class="blog-header">
+                <h1>Recent Blog Posts</h1>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                    there live the blind texts.
+                </p>
+            </div>
+
+            <div class="blog-cards">
+                <div class="blog-card">
+                    <img src="images/juice.webp" alt="Blog Image">
+                    <span>February 26, 2018</span>
+                    <a href="#">45 Best Places To Unwind</a>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                        there live the blind texts.
+                    </p>
+                </div>
+
+                <div class="blog-card">
+                    <img src="images/img_3.jpg.webp" alt="Blog Image">
+                    <span>March 5, 2019</span>
+                    <a href="#">45 Best Places To Unwind</a>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                        there live the blind texts.
+                    </p>
+                </div>
+                <div class="blog-card">
+                    <img src="images/img_3.jpg.webp" alt="Blog Image">
+                    <span>July 14, 2021</span>
+                    <a href="#">45 Best Places To Unwind</a>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                        there live the blind texts.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="happy-customers-section">
+            <div class="container">
+                <h2>Happy Customers</h2>
+
+                <div class="customer-profile">
+                    <div class="customer">
+                        <img src="images/person_1.jpg.webp" alt="Customer 1">
+                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                            the Semantics, a large language ocean.”</p>
+                        <h4>Sarah Ali</h4>
+                    </div>
+                    <div class="customer">
+                        <img src="images/person_2.jpg.webp" alt="Customer 2">
+                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                            the Semantics, a large language ocean.”</p>
+                        <h4>— John Doe</h4>
+                    </div>
+                    <div class="customer">
+                        <img src="images/person_2.jpg.webp" alt="Customer 2">
+                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                            the Semantics, a large language ocean.”</p>
+                        <h4>— John Doe</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="destination">
+            <div class="destination-header">
+                <h1>Top Destination</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque quo odio
+                    repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores quis,
+                    blanditiis laboriosam alias. Sed.</p>
+            </div>
+
+            <div class="cards-section">
+                <div class="distenatin-card">
+                    <img src="images/juice.webp" alt="">
+                    <a href="#">Food & Wines</a>
+                    <div class="reviews">
+                        <div class="rating-star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span>2,112 reviews</span>
+                    </div>
+                </div>
+                <div class="distenatin-card">
+                    <img src="images/img_2.jpg.webp" alt="">
+                    <a href="#">Resort & Spa</a>
+                    <div class="reviews">
+                        <div class="rating-star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span>2,112 reviews</span>
+                    </div>
+                </div>
+                <div class="distenatin-card">
+                    <img src="images/img_3.jpg.webp" alt="">
+                    <a href="#">Hotel Rooms</a>
+                    <div class="reviews">
+                        <div class="rating-star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span>2,112 reviews</span>
+                    </div>
+                </div>
+                <div class="distenatin-card">
+                    <img src="images/img_5.jpg.webp" alt="">
+                    <a href="#">Mountain Climbing</a>
+                    <div class="reviews">
+                        <div class="rating-star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span>2,112 reviews</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="section footer-section">
+            <div class="container">
+                <div class="col-mb">
+                    <h3>Quick Link</h3>
+                    <ul class="links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Rooms</a></li>
+                    </ul>
+                </div>
+                <div class="col-mb">
+                    <h3>Support</h3>
+                    <ul class="links">
+                        <li><a href="#">Our Location</a></li>
+                        <li><a href="#">The Hosts</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Restaurant</a></li>
+                    </ul>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Info</h3>
+                    <p><strong>Address:</strong> Islamabad</p>
+                    <p><strong>Phone:</strong> (+1) 435 3533</p>
+                    <p><strong>Email:</strong> <a href="mailto:info@example.com">info@example.com</a></p>
+                </div>
+                <div class="col">
+                    <h3>Subscribe</h3>
+                    <form action="#" class="footer-newsletter">
+                        <input type="email" placeholder="Your email..." required />
+                        <button type="submit"><i class="fa fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="row-2">
+                <p>&copy; 2025 Your Company. All rights reserved.</p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    <script src="Assets/script.js"></script>
+</body>
+
+</html>

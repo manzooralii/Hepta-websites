@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <!-- Google Fonts imports -->
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="hotel.css">
+</head>
+
+<body>
+
+    <!-- Header section with navigation -->
+    <header class="header-section">
+          <nav>
+            <div class="logo">Hepta</div>
+
+            <span class="toggle-btn">&#9776;</span>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="hotel.html" id="active">Hotels</a></li>
+                    <li><a href="Abous-us.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Hero text area -->
+        <div class="text-area">
+            <h2>Our Hotel</h2>
+            <p>A free template by Colorlib. Download and share!</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Experience section with feature cards -->
+        <section class="experince-section">
+            <div class="cart-section">
+                <!-- Card 1 - Good Foods -->
+                <div class="card">
+                    <div class="img">
+                        <img src="images/001-breakfast.svg" alt="001-breakfast">
+                    </div>
+                    <h2>Good Foods</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+
+                <!-- Card 2 - Travel Anywhere -->
+                <div class="card">
+                    <div class="img">
+                        <img src="images/travel.svg" alt="travel">
+                    </div>
+                    <h2>Travel Anywhere</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+
+                <!-- Card 3 - Airplane -->
+                <div class="card">
+                    <div class="img">
+                        <img src="images/003-airplane.svg" alt="Airplane">
+                    </div>
+                    <h2>Airplane</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+                
+                <!-- Card 4 - Beach Resort -->
+                <div class="card">
+                    <div class="img">
+                        <img src="images/004-beach.svg" alt="004-beach">
+                    </div>
+                    <h2>Beach Resort</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+
+                <!-- Card 5 - Mountain Climbing -->
+                <div class="card">
+                    <div class="img">
+                        <img src="images/005-mountains.svg" alt="Fresh Juice">
+                    </div>
+                    <h2>Mountain Climbing</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+                
+                <!-- Card 6 - Hot Air Balloon -->
+                <div class="card">
+                    <div class="img">
+                        <img src="images/006-hot-air-balloon.svg" alt="006-hot-air-balloon">
+                    </div>
+                    <h2>Hot Air Balloon</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- First room showcase section (Family Room) -->
+        <section class="tour-section">
+            <div class="image">
+                <img src="About/slider-1.jpg.webp" alt="Family Room">
+            </div>
+            <div class="tex">
+                <h2 class="heading">Family Room</h2>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                    there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                    Semantics, a large language ocean.
+                </p>
+                <p>
+                    A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                </p>
+
+                <a class="learn-btn" href="#">Learn More</a>
+            </div>
+        </section>
+
+        <!-- Second room showcase section (Presidential Room) -->
+        <section class="tour-section">
+            <div class="tex">
+                <h2 class="heading">Presidential Room</h2>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                    there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                    Semantics, a large language ocean.
+                </p>
+                <p>
+                    A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                </p>
+
+                <a class="learn-btn" href="#">Learn More</a>
+            </div>
+
+            <div class="image">
+                <img src="About/slider-2.jpg.webp" alt="Presidential Room">
+            </div>
+        </section>
+
+        <!-- Hotel gallery section with slider -->
+        <section class="mangement-section">
+            <div class="header">
+                <h1>Hotel Gallery</h1>
+                <p>
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                    there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                    Semantics, a large language ocean.
+                </p>
+            </div>
+
+            <!-- Slider Wrapper -->
+            <div class="slider-wrapper">
+                <!-- Left Arrow Button -->
+                <button class="slider-btn left" onclick="slideLeft()">&#10094;</button>
+
+                <!-- Slider Container with images -->
+                <div class="slider" id="slider">
+                    <img src="About/slider-1.jpg.webp" alt="Hotel image">
+                    <img src="About/slider-1.jpg.webp" alt="Hotel image">
+                    <img src="About/slider-2.jpg.webp" alt="Hotel image">
+                    <img src="About/slider-2.jpg.webp" alt="Hotel image">
+                    <img src="images/traveler-4155514_1280.jpg" alt="Traveler">
+                    <img src="images/traveler-4155514_1280.jpg" alt="Traveler">
+                    <img src="images/mountain-7986371_1280.jpg" alt="Mountain">
+                    <img src="images/mountain-7986371_1280.jpg" alt="Mountain">
+                    <img src="images/mountain-7986371_1280.jpg" alt="Mountain">
+                </div>
+                
+                <!-- Right Arrow Button -->
+                <button class="slider-btn right" onclick="slideRight()">&#10095;</button>
+            </div>
+        </section>
+
+
+
+
+        <!-- Top destinations section -->
+        <section class="destination">
+            <div class="destination-header">
+                <h1>Top Destination</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque quo odio
+                    repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores quis,
+                    blanditiis laboriosam alias. Sed.</p>
+            </div>
+
+            <!-- Destination cards -->
+            <div class="cards-section">
+                <!-- Destination Card 1 - Food & Wines -->
+                <div class="distenatin-card">
+                    <img src="images/juice.webp" alt="Food & Wines">
+                    <a href="#">Five Reasons to Stay at Villa Resort</a>
+                   
+                </div>
+                
+                <!-- Destination Card 2 - Resort & Spa -->
+                <div class="distenatin-card">
+                    <img src="images/img_2.jpg.webp" alt="Resort & Spa">
+                    <a href="#">Five Reasons to Stay at Villa Resort</a>
+                    
+                </div>
+                
+                <!-- Destination Card 3 - Hotel Rooms -->
+                <div class="distenatin-card">
+                    <img src="images/img_3.jpg.webp" alt="Hotel Rooms">
+                    <a href="#">Five Reasons to Stay at Villa Resort</a>
+                    
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- Footer section -->
+        <footer class="section footer-section">
+            <div class="container">
+                <!-- Quick Links column -->
+                <div class="col-mb">
+                    <h3>Quick Link</h3>
+                    <ul class="links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Rooms</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Support column -->
+                <div class="col-mb">
+                    <h3>Support</h3>
+                    <ul class="links">
+                        <li><a href="#">Our Location</a></li>
+                        <li><a href="#">The Hosts</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Restaurant</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info column -->
+                <div class="contact-info">
+                    <h3>Contact Info</h3>
+                    <p><strong>Address:</strong> Islamabad</p>
+                    <p><strong>Phone:</strong> (+1) 435 3533</p>
+                    <p><strong>Email:</strong> <a href="mailto:info@example.com">info@example.com</a></p>
+                </div>
+                
+                <!-- Newsletter subscription column -->
+                <div class="col">
+                    <h3>Subscribe</h3>
+                    <form action="#" class="footer-newsletter">
+                        <input type="email" placeholder="Your email..." required />
+                        <button type="submit"><i class="fa fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Footer bottom row with copyright and social links -->
+            <div class="row-2">
+                <p>&copy; 2025 Your Company. All rights reserved.</p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    
+    <!-- JavaScript file -->
+    <script src="Assets/script.js"></script>
+
+    <script>
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('#slider img');
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove('active');
+      if (i === index) {
+        slide.classList.add('active');
+      }
+    });
+  }
+
+  function slideRight() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  function slideLeft() {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  // Initialize first image as active on page load
+  window.addEventListener('DOMContentLoaded', () => {
+    showSlide(currentSlide);
+  });
+</script>
+
+</body>
+</html>
